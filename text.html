@@ -1,117 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        p {
+        p{
             font-family: Arial, Helvetica, sans-serif;
             margin-top: 0;
             margin-bottom: 0;
-
         }
-
-        .video-title {
+        
+        .video-title{
             /* font-family: Arial, Helvetica, sans-serif;
-          font-size: 20px;  
-          font-weight: bold;
-          border: 1px solid black;
-          font-style: italic;
-          text-align: center; */
+            font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            text-align: center;
+            border: 1px solid rgb(8, 5, 5); */
+
+
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bold;
             font-size: 20px;
-            border: 1px solid black;
-            /* set a width here if we want to force the text to go on secong line  */
             width: 300px;
+            line-height: 25px;
+            margin-bottom: 5px;
 
-            /* adjust spacing between lines    */
-            line-height: 26px;
-            /* margin-bottom: 0; */
+        }
+
+        .video-stats{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: rgb(68, 66, 66);
+            /* to add margins, first set all margins to 0  */
             margin-bottom: 12px;
-
         }
-
-        .video-stats {
-            /* font-family: Arial, Helvetica, sans-serif; */
-            font-size: 13px;
-            color: rgb(110, 109, 109);
-            /* set a margin first make it 0 then change   */
-            /* margin-top: 0; */
-            margin-bottom: 20px;
+        .video-author{
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(68, 66, 66);
+            font-size: 14px;
+            margin-bottom: 13px;
         }
-
-        .video-author {
-            /* font-family: Arial, Helvetica, sans-serif; */
-            color: rgb(110, 109, 109);
+        .Text{
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 12px;
-            /* margin-top:0 ; */
-            margin-bottom: 20px;
-        }
-
-        .video-desc {
-            /* font-family: Arial, Helvetica, sans-serif; */
-            font-size: 14px;
-            color: rgb(110, 109, 109);
-            /* set the width  */
             width: 300px;
-            line-height: 20px;
-            /* margin-top: 0; */
-            margin-bottom: 12px;
+            margin-bottom: 102px;
         }
-
-        .apple-text {
-            margin-bottom: 40px;
+        .apple{
+            margin-bottom: 45px;
             font-size: 14px;
-            border: 1px soild black;
             background-color: red;
             color: white;
             text-align: center;
             padding-top: 10px;
-            padding-bottom: 12px;
+            padding-bottom: 10px;
             
         }
-        .span-eg{
-            color: red;
+        .span:hover{
+             text-decoration: underline; 
         }
-        .span-eg:hover{
-            text-decoration: underline;
-        }
-        .sharp-link{
-            cursor: pointer;
-            text-decoration: underline;
-        }
+
     </style>
 </head>
-
 <body>
-    <p class="video-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit autem, quo iusto quae
-        quasi laboriosam
-        optio adipisci ex at eaque distinctio! Autem, assumenda.</p>
+    <p class="video-title">Lorem Lorem ipsum dolor sit amet consectetur. ipsum dolor sit amet consectetur </p>
+    <!-- html entities  -->
+    <p class="video-stats">3.4M views &#183 6 months ago </p>
 
-
-    <!-- html entity for a middle dot        -->
-    <p class="video-stats">3.4M views &#183 6 months ago</p>
-
-
-    <!-- using html entities  -->
     <p class="video-author">Rohan Walunj &#10003 </p>
+    <p class="Text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio voluptatum autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam fugit iste?</p>
+
+    <p class="apple">shop <strong> early</strong> for <u>walunj</u> best <span class="span">Rohan</span> selection Shop Now &#62 </p>
 </body>
-
-<p class="video-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, totam a quod ut amet facere
-    adipisci, incidunt maxime veniam, magnam porro sit tempora cum nobis recusandae accusantium natus mollitia dolor
-    molestiae! A, obcaecati praesentium.</p>
-
-
-<p class="apple-text">
-
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis? &#62
-</p>
-
-<!-- text element  -->
-<p>Lorem <strong>lorem</strong> ipsum <u>sit</u> dolor,<span class="span-eg">amet</span> sit amet consectetur adipisicing elit. Nobis? &#62 <span class="sharp-link">Rohan</span>
-
-
 </html>
